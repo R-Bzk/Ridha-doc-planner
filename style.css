@@ -5,12 +5,16 @@ body {
 a {
     text-decoration: none;
 }
+nav {
+    display: flex;
+    margin-left: 130px;
+}
 .is-current {
     color: #00BFA5;
     font-size: 15px;
 }
 .main-menu span {
-    color: grey;
+    color: grey;a
     font-size: 15px;
 }
 .lead {
@@ -65,9 +69,10 @@ a {
     height: 248;
     margin-left: 220px;
 }
+
 .services {
     display: flex;
-    margin: 120px;
+    justify-content: center;
 }
 .service-card-patient {
     background-color: #00BFA5;
@@ -94,16 +99,14 @@ a {
     background-color: white;
     padding: 10px;
     border-radius: 10px;
-    font: 16px "Helvetica Neue,Helvetica,Arial,sans-serif;"
+    font: 16px "Helvetica Neue,Helvetica,Arial,sans-serif;";
+    margin-left: 80px;
 }
 .service-card-image {
     width: 397;
     height: 248;
 }
-nav {
-    display: flex;
-    margin-left: 130px;
-}
+
 .main-header {
     display: flex;
     background-color: white;
@@ -168,18 +171,20 @@ nav {
 .brands-section {
     display: flex;
     text-decoration: none;
+    margin-left: 90px;
 }
 .brands-logos svg {
     fill: grey;
+    width: 135px;
+    height: 20px;
 }
 .brands-logos svg:hover {
     fill: #00BFA5;
 }
-.brand-title {
+.brand-title h2 {
     margin: 30px;
     padding: 15px;
-}
-.brand-title h2 {
+    font-size: 26px;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: 300;
     letter-spacing: 0.3px;
@@ -190,7 +195,7 @@ nav {
     flex-wrap: wrap;
 }
 .brands-logos li {
-    margin: 30px;
+    margin: 25px;
 }
 .stats-health img {
     width: 300px;
@@ -214,6 +219,8 @@ nav {
     color: #00CBB0;
     padding: 20px;
     justify-content: center;
+    font-weight: 300;
+    font-size: 30px
 }
 .offices-top p {
     display: flex;
@@ -239,12 +246,12 @@ nav {
     display: grid;
     grid-template-columns: 325px 325px 325px;
     grid-gap: 10px;
-    padding: 170px;
+    justify-content: center;
+    margin: 50px
 }
 .office div {
     display: flex;
     justify-content: center;
-    margin: 10px;
 }
 .office {
     padding-bottom: 15px;
@@ -284,9 +291,6 @@ nav {
 .stats-health h2 {
     color: #00BFA5;
 }
-.main-footer {
-    display: flex;
-}
 .stats-item h3 {
     text-align: center;
     color: #00BFA5;
@@ -296,11 +300,14 @@ nav {
     margin: auto;
     font-size: 13px;
 }
+
+.main-footer {
+    display: flex;
+}
 footer p {
     display: flex;
     font-size: 12px;
     justify-content: center;
-    margin-bottom: 30px;
+    margin: 30px;
     padding-left: 200px;
 }
-
